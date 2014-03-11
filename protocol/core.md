@@ -227,7 +227,7 @@ m82{
 ```
 
 A message with a binary data payload is prefixed with an exclamation point and
-then the JSON body he binary payload is sent as usual.  The binary payload is
+then the JSON body payload is sent as usual.  The binary payload is
 then sent in one or more chunks, ending with a zero-length binary chunk.  Each
 chunk begins with its length in ASCII digits, followed by a newline, followed
 by the binary data.  The size for each chunk shall be no greater than 16777216
